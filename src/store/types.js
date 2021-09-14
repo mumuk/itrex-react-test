@@ -1,10 +1,6 @@
 export const FETCH_DATA = "FETCH_DATA"
 export const FETCH_DATA_FAIL = "FETCH_DATA_FAIL"
 export const GET_CURRENT_ITEM = "GET_CURRENT_ITEM"
-export const CHANGE_CURRENT_ITEM = "CHANGE_CURRENT_ITEM"
-
-export const EDIT_DATA = "EDIT_DATA"
-
 
 export const SET_TEXT_FILTER = "SET_TEXT_FILTER"
 export const SORT_BY_ASCEND = "SORT_BY_ASCEND"

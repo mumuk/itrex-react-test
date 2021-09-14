@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {TableComponent} from "./Components/TableComponent";
+import {TableContainer} from "./Components/TableContainer";
 import {Provider} from "react-redux";
 import {store} from "./store/configureStore"
 
@@ -8,9 +8,9 @@ import {store} from "./store/configureStore"
 const jsx = (
 
 <Provider store={store}>
-  <div>Main component
-  <TableComponent/>
-  </div>
+  <>
+  <TableContainer/>
+  </>
 </Provider>
 )
 

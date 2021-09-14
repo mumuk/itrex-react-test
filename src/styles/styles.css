@@ -1,5 +1,6 @@
-@import "TableComponent.css";
+@import "Table.css";
+@import "base.css";
+@import "TableContainer.css";
 
-#app{
-    color: green;
-}
+
+

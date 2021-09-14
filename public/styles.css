@@ -1,6 +1,6 @@
-/*!*********************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./src/styles/TableComponent.css ***!
-  \*********************************************************************************/
+/*!************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/styles/Table.css ***!
+  \************************************************************************/
 
 .data-table{
     table-layout: fixed;
@@ -27,11 +27,57 @@ td {
 }
 
 tr:hover{
-cursor: pointer;
+    cursor: pointer;
+}
+
+
+/*!***********************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/styles/base.css ***!
+  \***********************************************************************/
+*,
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+/*!*********************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/styles/TableContainer.css ***!
+  \*********************************************************************************/
+.table-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+
+
+}
+
+.profile-info-container {
+    border: black solid thin;
+    margin: 3em 0;
+    width: 80%;
+    height: 40%;
+    text-align: center;
+
+    position: relative;
+    bottom: 0;
+}
+
+
+.profile-info-container__list {
+    list-style: none;
+
+}
+
+li {
+    margin: 2em;
 }
 /*!*************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./src/styles/styles.css ***!
   \*************************************************************************/
-#app{
-    color: green;
-}
+
+
+
+
+

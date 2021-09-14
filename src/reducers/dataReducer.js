@@ -3,12 +3,11 @@ import {FETCH_DATA, GET_CURRENT_ITEM} from "../store/types";
 
 const dataDefaultState = {
   items: [],
-  currentItem: {},
+  currentItem: null,
   isFetching: true
 }
 
 export default (state = dataDefaultState, action) => {
-   // console.log(action.payload)
   switch (action.type) {
     case FETCH_DATA:
       return {
@@ -19,7 +18,7 @@ export default (state = dataDefaultState, action) => {
     case GET_CURRENT_ITEM:
       return {
         ...state,
-        currentItem: action.payload
+        currentItem: action.payload,
       }
     default:
       return state
